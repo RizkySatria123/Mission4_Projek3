@@ -22,10 +22,10 @@ class UserSeeder extends Seeder
             'profile_image'=>null
         ]);
         User::create([
-            'username' => 'Raihana',
-            'password' => 'raihana123',
+            'username' => 'Rizky',
+            'password' => 'Ciwidey123',
             'role'=>'student',
-            'full_name' => 'Raihana Aisha Az-zahra',
+            'full_name' => 'Rizky Satria Gunawan',
             'profile_image'=>null
         ]);
     }

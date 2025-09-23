@@ -14,7 +14,7 @@ class StudentSeeder extends Seeder
      */
     public function run(): void
     {
-        $user = User::where('username', 'Raihana')->first();
+        $user = User::where('username', 'Rizky Satria Gunawan')->first();
 
         Student::create([
             'USER_ID' => $user->USER_ID,
